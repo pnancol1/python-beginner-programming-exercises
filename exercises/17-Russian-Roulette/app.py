@@ -9,6 +9,8 @@ def spin_chamber():
 # ❌ ⬆ DON'T CHANGE THE CODE ABOVE ⬆ ❌
 def fire_gun():
 	# ✅ ↓ your code here ↓ ✅
+	if spin_chamber() == 1:
+		print("BANG! Ya Dead!")
 	return None
 
 
